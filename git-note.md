@@ -23,7 +23,7 @@ Use follwing command to check if there is a .git file in there to determine if y
 Go into the directory you wanna make it a git repository to:
 > $ cd FILE NAME
 
-## Make this direcotry a git repository (when inside the directory):
+## Make this directory a git repository (when inside the directory):
 
 > $ git init
 
