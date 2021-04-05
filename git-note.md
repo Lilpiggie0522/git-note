@@ -70,6 +70,7 @@ Go into the directory you wanna make it a git repository to:
 
 # Pull changes from github to local master branch again
 > $ git checkout master
+
 > $ git pull origin master
 
 # Delete branch locally
