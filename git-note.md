@@ -49,6 +49,21 @@ Go into the directory you wanna make it a git repository to:
 ### shortcut for git push origin master:
 > $ git push -u origin master
 
+# Check out branch you have (* indicates the current branch you are in)
+> $ git branch
+
+# Creating a new branch
+> $ git checkout -b BRANCH NAME
+
+# Switching between branches
+> $ git checkout BRANCH NAME
+
+# Delete branch locally
+> $ git branch -d BRANCH NAME
+
+
+
+
 
 
 
