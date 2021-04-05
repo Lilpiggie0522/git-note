@@ -37,7 +37,7 @@ Go into the directory you wanna make it a git repository to:
 
 ## 2. Copy the SSH or HTTPS link from github repo page
 
-## 3. Push local repository to github using following command:
+## 3. Add reference to the remote repository on github using following command:
 > $ git remote add origin SSH OR HTTP link
 
 ## 4. Check what remote repositories that are connected to this repo using command:
