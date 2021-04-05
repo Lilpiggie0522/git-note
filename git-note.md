@@ -61,6 +61,9 @@ Go into the directory you wanna make it a git repository to:
 # Delete branch locally
 > $ git branch -d BRANCH NAME
 
+# Delete branch remotely
+> $ git push origin --d REMOTE BRANCH NAME
+
 
 
 
