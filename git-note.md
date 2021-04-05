@@ -58,12 +58,6 @@ Go into the directory you wanna make it a git repository to:
 # Switching between branches
 > $ git checkout BRANCH NAME
 
-# Delete branch locally
-> $ git branch -d BRANCH NAME
-
-# Delete branch remotely
-> $ git push origin --d REMOTE BRANCH NAME
-
 # Check out the difference between two branches
 ## Switch to the master branch
 > $ git checkout master
@@ -71,8 +65,18 @@ Go into the directory you wanna make it a git repository to:
 ## Check difference
 > $ git diff NAME OF THE NEW BRANCH
 
+# Push branch to github
+> $ git push -u origin YOUR LOCAL BRANCH NAME (AS WELL AS THE BRANCH NAME ON GITHUB)
 
+# Pull changes from github to local master branch again
+> $ git checkout master
+> $ git pull origin master
 
+# Delete branch locally
+> $ git branch -d BRANCH NAME
+
+# Delete branch remotely
+> $ git push origin --d REMOTE BRANCH NAME
 
 
 
