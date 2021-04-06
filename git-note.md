@@ -79,6 +79,13 @@ Go into the directory you wanna make it a git repository to:
 # Delete branch remotely
 > $ git push origin --d REMOTE BRANCH NAME
 
+# Merging two branches on github
+> Push local changes onto github using:
+
+> $ git remote add origin REPOSITORY_NAME
+
+> start pull request and merge branches on github
+
 
 
 
